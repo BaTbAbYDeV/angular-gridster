@@ -6,12 +6,12 @@ exports.config = {
 
 	// Capabilities to be passed to the webdriver instance.
 	capabilities: {
-		'browserName': 'phantomjs'
+		'browserName': 'chrome'
 	},
 
 	// Spec patterns are relative to the location of the spec file. They may
 	// include glob patterns.
-	specs: ['test/e2e/*.js'],
+	specs: ['test/e2e/overlap_gridster.js'],
 
 	// Options to be passed to Jasmine-node.
 	jasmineNodeOpts: {
